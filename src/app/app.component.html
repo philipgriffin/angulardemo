@@ -1,0 +1,9 @@
+<p>app works!</p>
+<table>
+  <th>MAKE</th>
+  <th>Model</th>
+  <tr *ngFor="let data of carsResponse">
+    <td>{{ data.make }}</td>
+    <td>{{ data.model }}</td>
+  </tr>
+</table>
